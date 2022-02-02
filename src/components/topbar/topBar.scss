@@ -6,6 +6,7 @@
     height: 70px;
     background-color: #fff;
     color: $mainColor;
+    // box-shadow: 1px 1px 5px 5px crimson;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -23,7 +24,7 @@
             align-items: center;
             .logo{
                 font-size: 30px;
-                color: #000;
+                // color: #000;
                 font-weight: 700;
                 text-decoration: none;
                 margin-right: 40px;
@@ -68,7 +69,7 @@
     }
 
     &.active{
-        background-color: black;
+        background-color: $mainColor;
         color: #fff;
 
     .wrapper {
